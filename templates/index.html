@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Twitter Semantic Analysis</title>
+    <link rel="stylesheet" type="text/css", href="{{ url_for('static', filename='style.css')}}">
+</head>
+<body>
+    <h2>Twitter Semantic Analysis</h2>
+    <form>
+        Get Twitter Semantic Analysis For Tweet: <br> <br>
+        <input type="text" name="find_analysis"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <h2>Twitter analysis for {{find_analysis}} </h2>
+    <h3>Percentage of Positive tweets: {{ptweets}}
+    </h3>
+    <h3>Percentage of Negative  tweets: {{ntweets}}</h3>
+    <h3>Top 10 Positive tweets</h3>
+        <!--<table border="1">-->
+            {% for tweet in pt %}
+    <p>{{tweet}}</p>
+            {% endfor %}
+        <!--</table>-->
+                <br>
+    <h3>Top 10 Negative tweets</h3>
+        <!--<table border="1">-->
+            {% for tweet in nt %}
+    <p>{{tweet}}</p>
+            {% endfor %}
+        <!--</table>-->
+
+</body>
+</html>
