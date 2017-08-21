@@ -8,5 +8,6 @@ To run the web-app locally,
   
 3. Run the python file
 python twitter_app.py
+
 To open the Web-app, go to the link:-
 https://twittersemanticanalysis.herokuapp.com/
