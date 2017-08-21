@@ -7,7 +7,7 @@ To run the web-app locally,
     pip install requirements.txt
   
 3. Run the python file
-python twitter_app.py
+python twitterclient.py
 
 To open the Web-app, go to the link:-
 https://twittersemanticanalysis.herokuapp.com/
