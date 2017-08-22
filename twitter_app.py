@@ -2,10 +2,7 @@ import tweepy
 from textblob import TextBlob
 import re
 from textblob.sentiments import NaiveBayesAnalyzer
-consumer_key = 'kxgMs6XFywD0A7E2ANt56N98H'
-consumer_secret= '1TmOnK7Sts4GO6eRDm0rfF9sT6croMT2PumUyUSi6RInG2RcmB'
-access_token = '3272548176-ZcEeg1jsWuYgDhzlQlSttr6pFboftycNv7N92Zw'
-access_token_secret = 'j6LHL5353xvhXwOD2rv3BNAG3B1ofQdRSLRL19qhPiMda'
+
 __author__ = 'ratijha'
 
 
